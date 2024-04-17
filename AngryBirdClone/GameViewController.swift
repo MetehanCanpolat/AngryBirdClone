@@ -26,8 +26,11 @@ class GameViewController: UIViewController {
             
             view.ignoresSiblingOrder = true
             
+            // sağ altta fps i felan gösteriyor;
             view.showsFPS = true
             view.showsNodeCount = true
+            
+            view.showsPhysics = true
         }
     }
 
